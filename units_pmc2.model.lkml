@@ -18,11 +18,11 @@ include: "views/*"                       # include all views in this project
 #   }
 # }
 
-
 explore: building {
 
 # one restriction here ... (ie: PMC2)
 
+  group_label: "PMC2"
   join: apt_unit {
     relationship: one_to_many
     sql_on: ${apt_unit.building} = ${building.id} ;;

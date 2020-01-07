@@ -21,11 +21,10 @@ include: "*.dashboard.lookml"
 #   }
 # }
 
-
 explore: building {
 
 # one restriction here ... (ie: PMC1)
-
+  group_label: "PMC1"
   join: apt_unit {
     relationship: one_to_many
     sql_on: ${apt_unit.building} = ${building.id} ;;
