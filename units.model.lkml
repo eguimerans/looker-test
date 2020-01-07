@@ -18,7 +18,10 @@ include: "views/*"                       # include all views in this project
 #   }
 # }
 
+
 explore: building {
+
+# one restriction here ... (ie: PMC1)
 
   join: apt_unit {
     relationship: one_to_many
