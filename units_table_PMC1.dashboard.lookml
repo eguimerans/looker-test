@@ -4,7 +4,7 @@
   refresh: 1 hour
   elements:
   - name: Units Table Dashboard
-    title: Untitled Visualization
+    title: Units Table PMC1
     model: units_pmc1
     explore: building
     type: looker_grid
